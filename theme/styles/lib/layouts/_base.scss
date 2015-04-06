@@ -1,0 +1,41 @@
+/* ==========================================================================
+
+   Layouts
+
+   ========================================================================== */
+
+/* 	Base Layout
+   ========================================================================== */
+.mx-layoutcontainer-wrapper {
+	padding: $padding-layoutcontainer-base;
+}
+.mx-layoutcontainer-wrapper.mx-layoutcontainer-nested {
+	padding: 0;
+}
+
+#content > .mx-page {
+	background: $color-baselayout-bg;
+}
+
+
+/*	App Cloud Services Master Layout
+   ========================================================================== */
+/* Top container including bar */
+.mx-layoutcontainer .mxappcloud-topcontainer,
+.mx-layoutcontainer .mxappcloud-topcontainer > .mx-layoutcontainer-wrapper {
+	padding: 0;
+}
+
+/* Content section */
+.mx-layoutcontainer .mxappcloud-contentcontainer > .mx-layoutcontainer-wrapper {
+	padding: 0;
+}
+
+/* Bottom section */
+.mx-layoutcontainer .mxappcloud-bottomcontainer > .mx-layoutcontainer-wrapper {
+	padding: 0;
+}
+
+
+
+

@@ -1,0 +1,44 @@
+// Modules and Variables
+@import "base/all";
+@import "base/base";
+
+// Animations 
+//@import "animations/animate.scss";
+
+// Components
+@import "components/dijit-widgets";
+@import "components/helpers";
+@import "components/glyphicons";
+@import "components/buttons";
+@import "components/dataview";
+@import "components/grid";
+@import "components/datagrids";
+@import "components/templategrids";
+@import "components/groupbox";
+@import "components/inputs";
+@import "components/listview";
+@import "components/navigation";
+@import "components/navigationlist";
+@import "components/popups";
+@import "components/tabcontainer";
+@import "components/typography";
+@import "components/tables";
+@import "components/labels";
+@import "components/alerts";
+@import "components/images";
+@import "components/backgrounds";
+
+// Mobile
+@import "mobile/layouts/base";
+
+@import "mobile/components/listview";
+@import "mobile/components/loader";
+@import "mobile/components/mx-header";
+@import "mobile/components/tabcontainer";
+
+//layouts
+@import "layouts/base";
+@import "layouts/sidebar";
+@import "layouts/topbar";
+
+

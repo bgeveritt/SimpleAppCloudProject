@@ -1,0 +1,13 @@
+{
+    "cachebust": "2356463",
+    "files": {
+        "css": ["lib/bootstrap/css/bootstrap.min.css", "mxclientsystem/mxui/ui/mxui.css", "styles/lib/lib.css", "styles/custom.css"],
+        "js": ["mxclientsystem/mxui/mxui.js"]
+    },
+   "meta": [
+        {
+            "name": "X-MendixVersion",
+            "content": "5.8.1"
+        }
+    ] 
+}

@@ -1,0 +1,461 @@
+// The location where you can set new variables or override the lib variables (give the same name without !default).
+@import "../../custom-variables";
+
+///////////////////////////////////////////////////////////////////////////////////////
+//
+//   Base Colors (The base colors of a project)
+//
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+// Library colors
+/////////////////////////////////////////////////////////////////////////////////////
+// Gray shades
+$gray-darker:							#222 !default;	
+$gray-dark:								#333 !default;	
+$gray:									#555 !default;	
+$gray-light:							#999 !default;	
+$gray-primary:							#DDD !default;	
+$gray-lighter:							#eee !default;	
+	
+// Flat ui colors:						http://flatuicolors.com/
+$color-turquoise:						#1abc9c !default; // Blue Green -- Light
+$color-greensea:						#16a085 !default; // Blue Green -- Dark
+$color-emerald:							#2ecc71 !default; // Green -- Light
+$color-nephritis:						#27ae60 !default; // Green -- Dark
+$color-peterriver:						#3498db !default; // Blue -- Light
+$color-belizehole:						#2980b9 !default; // Blue -- Dark
+$color-amethyst:						#9b59b6 !default; // Purple -- Light
+$color-wisteria:						#8e44ad !default; // Purple -- Dark		
+$color-wegasphalt:						#34495e !default; // Dark Blue -- Light	
+$color-midnightblue:					#2c3e50 !default; // Dark Blue -- Dark
+$color-sunflower:						#f1c40f !default; // Yellow -- Light				
+$color-orange:							#f39c12 !default; // Yellow -- Dark
+$color-carrot:							#e67e22 !default; // Orange -- Light
+$color-pumpkin:							#d35400 !default; // Orange -- Dark
+$color-alizarin:						#e74c3c !default; // Red -- Light
+$color-pomegranate:						#c0392b !default; // Red -- Dark
+$color-clouds:							#ecf0f1 !default; // Light gray -- Light
+$color-silver:							#bdc3c7 !default; // Light gray -- Dark
+$color-concrete:						#95a5a6 !default; // Dark gray -- Light
+$color-asbestos:						#7f8c8d !default; // Dark gray -- Dark
+
+//										http://www.flatuicolorpicker.com/
+$color-shakespeare:						#52B3D9 !default; // Blue - Green - Info
+
+
+
+// Primary colors
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Base color (for text, background etc)
+$base-color:							$color-midnightblue !default;				 
+
+// Colors
+$color-default: 						$gray-primary !default;	
+$color-inverse: 						#3a3f51 !default;//$color-midnightblue !default; 
+$color-primary: 						#4280cb !default;//#4280cb;//$color-belizehole  !default; 	
+$color-info: 							#48B0F7 !default;//#23b7e5;//$color-shakespeare !default;
+$color-success: 						#10CFBD !default;//#27c24c;//$color-nephritis !default;	
+$color-warning: 						#F8D053 !default;//#fad733;//$color-orange !default;
+$color-danger: 							#F55753 !default;//#f05050;//$color-pomegranate !default;	
+
+$color-default-darker: 					shade($color-default,40) !default;	
+$color-default-dark: 					shade($color-default,26) !default;	
+$color-default-light: 					tint($color-default,40) !default;	
+$color-default-lighter: 				tint($color-default,80) !default;	
+
+$color-inverse-darker: 					shade($color-inverse,40) !default;	
+$color-inverse-dark: 					shade($color-inverse,26) !default;	
+$color-inverse-light: 					tint($color-inverse,40) !default;	
+$color-inverse-lighter: 				tint($color-inverse,80) !default;	
+
+$color-primary-darker: 					shade($color-primary,40) !default;	
+$color-primary-dark: 					shade($color-primary,26) !default;	
+$color-primary-light: 					tint($color-primary,40) !default;	
+$color-primary-lighter: 				tint($color-primary,80) !default;	
+
+$color-info-darker: 					shade($color-info,40) !default;	
+$color-info-dark: 						shade($color-info,26) !default;	
+$color-info-light: 						tint($color-info,40) !default;	
+$color-info-lighter: 					tint($color-info,80) !default;	
+
+$color-success-darker: 					shade($color-success,40) !default;	
+$color-success-dark: 					shade($color-success,26) !default;	
+$color-success-light: 					tint($color-success,40) !default;	
+$color-success-lighter: 				tint($color-success,80) !default;	
+
+$color-warning-darker: 					shade($color-warning,40) !default;	
+$color-warning-dark: 					shade($color-warning,26) !default;	
+$color-warning-light: 					tint($color-warning,40) !default;	
+$color-warning-lighter: 				tint($color-warning,80) !default;	
+
+$color-danger-darker: 					shade($color-danger,40) !default;	
+$color-danger-dark: 					shade($color-danger,26) !default;	
+$color-danger-light: 					tint($color-danger,40) !default;	
+$color-danger-lighter: 					tint($color-danger,80) !default;	
+
+
+//   Layout Colors
+/////////////////////////////////////////////////////////////////////////////////////
+$color-baselayout-bg:					#eff2f6 !default;
+
+$color-sidebar-bg: 						$color-inverse !default;
+$color-topbar-bg: 						$color-inverse !default;
+
+
+
+
+
+//   Alert
+///////////////////////////////////////////////////////////////////////////////////////
+// Backgrounds
+$color-alert-bg-info: 					$color-info-lighter !default;
+$color-alert-bg-success: 				$color-success-lighter !default;
+$color-alert-bg-warning: 				$color-warning-lighter !default;
+$color-alert-bg-danger: 				$color-danger-lighter !default;
+
+// Text
+$color-alert-text-info: 				$color-info-darker !default;
+$color-alert-text-success: 				$color-success-darker !default;
+$color-alert-text-warning: 				$color-warning-darker !default;
+$color-alert-text-danger: 				$color-danger-darker !default;
+
+// Border
+$color-alert-border-info: 				$color-info-dark !default;
+$color-alert-border-success: 			$color-success-dark !default;
+$color-alert-border-warning: 			$color-warning-dark !default;
+$color-alert-border-danger: 			$color-danger-dark !default;
+
+
+
+
+
+
+//   Button
+/////////////////////////////////////////////////////////////////////////////////////
+// Global link color
+$color-link:            				$color-primary !default;
+$color-link-hover:      				darken($color-link, 15%) !default;
+
+// Backgrounds
+$color-btn-bg-default: 					$color-default !default;	
+$color-btn-bg-inverse: 					$color-inverse !default;	
+$color-btn-bg-primary: 					$color-primary !default; 
+$color-btn-bg-info: 					$color-info !default; 
+$color-btn-bg-success: 					$color-success !default; 
+$color-btn-bg-warning: 					$color-warning !default;
+$color-btn-bg-danger: 					$color-danger !default; 	
+$color-btn-bg-white: 					#FFF !default; 
+
+// Text
+$color-btn-text-default: 				$base-color !default;
+$color-btn-text-inverse: 				#FFF !default;
+$color-btn-text-primary: 				#FFF !default;
+$color-btn-text-info: 					#FFF !default;
+$color-btn-text-success: 				#FFF !default;
+$color-btn-text-warning: 				#FFF !default;
+$color-btn-text-danger: 				#FFF !default;
+$color-btn-text-white: 					$base-color !default; 
+
+// Border
+$color-btn-border-default: 				$color-default !default;
+$color-btn-border-inverse: 				$color-inverse !default;
+$color-btn-border-primary: 				$color-primary !default;
+$color-btn-border-info: 				$color-info !default;
+$color-btn-border-success: 				$color-success !default;
+$color-btn-border-warning: 				$color-warning !default;
+$color-btn-border-danger: 				$color-danger !default;
+$color-btn-border-white: 				#FFF !default; 
+
+
+
+
+
+
+//   Dataview Colors 
+/////////////////////////////////////////////////////////////////////////////////////
+$color-dataview-controls-bg: 			transparent !default;
+$color-dataview-controls-border: 		$gray-primary !default;
+
+
+
+
+
+
+//   Grid Colors 
+/////////////////////////////////////////////////////////////////////////////////////
+// Paging 
+$color-grid-paging-bg:					transparent !default;
+$color-grid-paging-bg-hover:			transparent !default;
+$color-grid-paging-border:				transparent !default;
+$color-grid-paging-border-hover:		transparent !default;
+$color-grid-paging-text: 				$gray-light !default;
+$color-grid-paging-text-hover:			$color-primary !default;
+
+// Borders
+$color-grid-border: 					$gray-primary !default;
+
+// Background 
+$color-grid-bg:							#FFF !default;
+$color-grid-bg-header:					transparent !default; // Grid Headers
+$color-grid-bg-hover: 					$color-warning-lighter !default;//#FFFFD6 !default;
+$color-grid-bg-selected: 				$color-warning-lighter !default;//#F9F9D1 !default;	
+$color-grid-bg-selected-hover: 			shade($color-warning-lighter,3) !default;
+$color-grid-text-selected:				$base-color !default;
+
+// Striped 
+$color-grid-bg-striped: 				lighten($color-grid-border,5) !default;
+
+// Footer
+$color-grid-footer-bg: 					$gray-primary !default;
+
+
+
+
+
+//   Groupbox Colors
+/////////////////////////////////////////////////////////////////////////////////////
+// Backgrounds
+$color-groupbox-default: 				$color-default !default;
+$color-groupbox-inverse: 				$color-inverse !default; 
+$color-groupbox-primary: 				$color-primary !default; 
+$color-groupbox-info: 					$color-info !default;
+$color-groupbox-success: 				$color-success !default; 
+$color-groupbox-warning: 				$color-warning !default;
+$color-groupbox-danger: 				$color-danger !default; 	
+$color-groupbox-white: 					#FFF !default;
+
+// Text
+$color-groupbox-text-default: 			$base-color !default;
+$color-groupbox-text-inverse: 			#FFF !default;
+$color-groupbox-text-primary: 			#FFF !default;
+$color-groupbox-text-info: 				#FFF !default;
+$color-groupbox-text-success: 			#FFF !default;
+$color-groupbox-text-warning: 			#FFF !default;
+$color-groupbox-text-danger: 			#FFF !default;
+$color-groupbox-text-white: 			$base-color !default;
+
+
+//   Callout (groupbox) Colors
+/////////////////////////////////////////////////////////////////////////////////////
+// Text and border
+$color-callout-info:					$color-info !default;
+$color-callout-success:					$color-success !default;
+$color-callout-warning:					$color-warning !default;
+$color-callout-danger:					$color-danger !default;
+
+// Background
+$color-callout-bg-info:					$color-info-lighter !default; 
+$color-callout-bg-success:				$color-success-lighter !default; 
+$color-callout-bg-warning:				$color-warning-lighter !default; 
+$color-callout-bg-danger:				$color-danger-lighter !default;
+
+
+
+
+
+//   Input
+/////////////////////////////////////////////////////////////////////////////////////
+$color-input-bg:						#FFF !default;
+$color-input-bg-focus:					#FFF !default;
+$color-input-bg-disabled:				$gray-lighter !default;
+$color-input-text: 						$gray !default;
+$color-input-text-focus:				$gray !default;
+$color-input-text-disabled:				$gray !default;
+$color-input-placeholder-text:			$gray-light !default;
+$color-input-border:					$gray-primary !default;
+$color-input-border-focus:				$color-primary !default;	
+
+// Input height
+$input-height:							33px;
+
+
+
+
+
+//   Label Colors
+/////////////////////////////////////////////////////////////////////////////////////
+// Backgrounds
+$color-label-bg-default: 				$color-default !default;
+$color-label-bg-primary: 				$color-primary !default; 
+$color-label-bg-info: 					$color-info !default; 
+$color-label-bg-success: 				$color-success !default; 
+$color-label-bg-warning: 				$color-warning !default;
+$color-label-bg-danger: 				$color-danger !default; 	
+
+// Text
+$color-label-text-default: 				$base-color !default;
+$color-label-text-primary: 				#FFF !default;
+$color-label-text-info: 				#FFF !default;
+$color-label-text-success: 				#FFF !default;
+$color-label-text-warning: 				#FFF !default;
+$color-label-text-danger: 				#FFF !default;
+
+// Border
+$color-label-border-default: 			$color-default !default;
+$color-label-border-primary: 			$color-primary !default;
+$color-label-border-info: 				$color-info !default;
+$color-label-border-success: 			$color-success !default;
+$color-label-border-warning: 			$color-warning !default;
+$color-label-border-danger: 			$color-danger !default;
+
+
+
+
+
+//   Navigation Colors
+/////////////////////////////////////////////////////////////////////////////////////
+$color-nav-bg: 							$color-inverse !default;
+$color-nav-bg-hover:					lighten($color-nav-bg, 4) !default;
+$color-nav-bg-active:					lighten($color-nav-bg, 8) !default;
+$color-nav-sub-bg: 						darken($color-nav-bg, 4) !default;
+$color-nav-text:						lighten($color-nav-bg, 50) !default;
+$color-nav-text-active:					#FFF !default;
+$color-nav-border:						$color-nav-bg-hover !default;
+
+
+
+
+
+
+//   Tab Colors 
+/////////////////////////////////////////////////////////////////////////////////////
+// Text color
+$color-tab-text: 						$color-primary !default;
+$color-tab-text-active: 				$base-color !default;
+
+// Border color
+$color-tab-border:						$gray-primary !default;	
+
+// Background color
+$color-tab-bg-hover: 					lighten($color-tab-border,5) !default;
+$color-tab-bg-active:					$color-primary !default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   Modal Colors (Pop ups)
+/////////////////////////////////////////////////////////////////////////////////////
+// Backgrounds
+$color-modal-default: 					$color-primary !default;
+
+// Text
+$color-modal-text-default: 				#FFF !default;
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//
+//   Typography
+//
+/////////////////////////////////////////////////////////////////////////////////////
+// Colors 
+$color-text:							$base-color !default;
+$color-header: 							$base-color !default;
+
+// Font family					
+$font-family-base:						false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-light:						false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-semibold:					false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-bold:						false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+// Font Weights
+$font-weight-light:						100 !default;
+$font-weight-normal:					normal !default; // 400		
+$font-weight-semibold:					500 !default;
+$font-weight-bold:						bold !default; //600
+
+$font-weight-headers:					$font-weight-semibold !default;
+
+// Font size
+$font-size-base:        				12px !default;
+$font-size-large:       				16px !default;
+$font-size-small:       				10px !default;
+
+// Font size headers
+$font-size-h1:          				floor(($font-size-base * 2.6)) !default; // ~31px
+$font-size-h2:          				floor(($font-size-base * 2.15)) !default; // ~25px
+$font-size-h3:          				ceil(($font-size-base * 1.7)) !default; // ~21px
+$font-size-h4:          				ceil(($font-size-base * 1.25)) !default; // ~15px
+$font-size-h5:          				$font-size-base !default; // ~12px
+$font-size-h6:          				ceil(($font-size-base * 0.85)) !default; // ~11px
+
+// Line height
+$line-height-base:      				1.428571429 !default;
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//
+//   Layout
+//
+/////////////////////////////////////////////////////////////////////////////////////
+$padding-layoutcontainer-base:			20px !default;
+$m-padding-layoutcontainer-base:		0px !default;
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//
+//   Tables
+//
+/////////////////////////////////////////////////////////////////////////////////////
+// Default Table Spacing
+$padding-table-cell-top:				8px !default;					
+$padding-table-cell-bottom:				8px !default;					
+$padding-table-cell-left:				8px !default;					
+$padding-table-cell-right:				8px !default;					
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//
+//   Mobile
+//
+/////////////////////////////////////////////////////////////////////////////////////
+$m-color-header: 						#FFF !default;
+
+
+//   Tab Container
+/////////////////////////////////////////////////////////////////////////////////////
+// Text color
+$m-color-tab-text: 						#FFF !default;
+$m-color-tab-text-active: 				#FFF !default;
+
+// Background color
+$m-color-tab-bg:						$color-primary !default;
+$m-color-tab-bg-hover: 					lighten($color-tab-border,5) !default;
+$m-color-tab-bg-active:					darken($m-color-tab-bg, 15) !default;	
+
+// Border color
+$m-color-tab-border:					darken($m-color-tab-bg, 15) !default;
+$m-color-tab-border-active:				darken($m-color-tab-bg, 15) !default;
