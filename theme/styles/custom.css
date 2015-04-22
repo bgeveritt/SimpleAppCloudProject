@@ -269,3 +269,7 @@
 .profile-tablet select.form-control {
 	-webkit-appearance: none;
 }
+
+.form-control {
+	padding: 0px 0px 0px 8px !important;
+}
