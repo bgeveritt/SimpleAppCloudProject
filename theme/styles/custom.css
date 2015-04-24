@@ -270,6 +270,12 @@
 	-webkit-appearance: none;
 }
 
+/*** Form Controls ***/
 .form-control {
 	padding: 0px 0px 0px 8px !important;
+}
+
+textarea.form-control, 
+textarea.readonly-input {
+	padding-top: 8px !important;
 }
