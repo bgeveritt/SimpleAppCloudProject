@@ -137,6 +137,8 @@ $color-alert-border-danger: 			$color-danger-dark !default;
 // Global link color
 $color-link:            				$color-primary !default;
 $color-link-hover:      				darken($color-link, 15%) !default;
+$btn-border-radius:						4px;
+$btn-img-display:						none;
 
 // Backgrounds
 $color-btn-bg-default: 					$color-default !default;	
@@ -268,7 +270,7 @@ $color-input-border:					$gray-primary !default;
 $color-input-border-focus:				$color-primary !default;	
 
 // Input height
-$input-height:							33px;
+$input-height:							40px;
 
 
 
@@ -374,7 +376,7 @@ $color-text:							$base-color !default;
 $color-header: 							$base-color !default;
 
 // Font family					
-$font-family-base:						false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-base:						Roboto, Helvetica, Arial, sans-serif !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-light:						false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-semibold:					false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-bold:						false !default;//"Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -388,9 +390,9 @@ $font-weight-bold:						bold !default; //600
 $font-weight-headers:					$font-weight-semibold !default;
 
 // Font size
-$font-size-base:        				12px !default;
+$font-size-base:        				15px !default;
 $font-size-large:       				16px !default;
-$font-size-small:       				10px !default;
+$font-size-small:       				12px !default;
 
 // Font size headers
 $font-size-h1:          				floor(($font-size-base * 2.6)) !default; // ~31px

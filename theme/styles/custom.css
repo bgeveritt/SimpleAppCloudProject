@@ -1,281 +1,263 @@
 /* Fonts
    ========================================================================== */
 @font-face {
-    font-family: 'Roboto';
-    src: url('fonts/Roboto-Regular-webfont.eot');
-    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Regular-webfont.eot");
+  src: url("fonts/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Roboto-Regular-webfont.woff") format("woff"), url("fonts/Roboto-Regular-webfont.ttf") format("truetype"), url("fonts/Roboto-Regular-webfont.svg#robotoregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('fonts/Roboto-Bold-webfont.eot');
-    src: url('fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-Bold-webfont.woff') format('woff'),
-         url('fonts/Roboto-Bold-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Bold-webfont.eot");
+  src: url("fonts/Roboto-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Roboto-Bold-webfont.woff") format("woff"), url("fonts/Roboto-Bold-webfont.ttf") format("truetype"), url("fonts/Roboto-Bold-webfont.svg#robotobold") format("svg");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-r0ffjj');
-	src:url('fonts/icomoon.eot?#iefix-r0ffjj') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-r0ffjj') format('woff'),
-		url('fonts/icomoon.ttf?-r0ffjj') format('truetype'),
-		url('fonts/icomoon.svg?-r0ffjj#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?-r0ffjj");
+  src: url("fonts/icomoon.eot?#iefix-r0ffjj") format("embedded-opentype"), url("fonts/icomoon.woff?-r0ffjj") format("woff"), url("fonts/icomoon.ttf?-r0ffjj") format("truetype"), url("fonts/icomoon.svg?-r0ffjj#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.profile-desktop .mx-layoutcontainer-top  .mx-layoutcontainer-wrapper {
-	padding: 0px;
+/* line 40, custom.scss */
+.profile-desktop .mx-layoutcontainer-top .mx-layoutcontainer-wrapper {
+  padding: 0px;
 }
 
+/* line 44, custom.scss */
 .profile-desktop .mx-layoutcontainer-horizontal {
-	background: #3A3F51;
+  background: #3a3f51;
 }
 
-.profile-desktop .mx-layoutcontainer-bottom  .mx-layoutcontainer-wrapper {
-	padding: 20px;
-	border-top: 1px solid #ddd;
+/* line 48, custom.scss */
+.profile-desktop .mx-layoutcontainer-bottom .mx-layoutcontainer-wrapper {
+  padding: 20px;
+  border-top: 1px solid #ddd;
 }
 
 /*** Login Page ***/
-
 /*** Responsive ***/
 @media (min-width: 768px) {
-    .row-sm-offset-3 div:first-child[class*="col-"] {
-        margin-left: 25%;
-    }
+  /* line 57, custom.scss */
+  .row-sm-offset-3 div:first-child[class*="col-"] {
+    margin-left: 25%;
+  }
 }
-
+/* line 62, custom.scss */
 .login-page .row {
-	margin-right: 1%;
-	margin-left: 1%;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
+/* line 67, custom.scss */
 .admin-dataview .col-sm-6 {
-	padding-right: 0px;
-	padding-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
+
 /***============***/
-
+/* line 73, custom.scss */
 .admin-message {
-	width: 100%;
-	margin-top: 5%;
+  width: 100%;
+  margin-top: 5%;
 }
 
+/* line 78, custom.scss */
 .login-page {
-	background: #CCCCCC !important;
+  background: #CCCCCC !important;
 }
 
+/* line 83, custom.scss */
 .profile-desktop .login-container,
 .profile-tablet .login-container {
-	position: absolute;
-	top: 25%;
-	left: 0;
-	bottom: 30%;
-	right: 0;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  bottom: 30%;
+  right: 0;
 }
 
-.profile-phone .login-container  {
-	position: absolute;
-	top: 30%;
-	left: 0;
-	bottom: 30%;
-	right: 0;
+/* line 91, custom.scss */
+.profile-phone .login-container {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  bottom: 30%;
+  right: 0;
 }
 
+/* line 99, custom.scss */
 .login-body {
-	background: #fff;
-	border: 1px solid #e4e5e7;
-	border-radius: 2px;
-	padding: 20px;
-	position: relative;
-	-webkit-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
-	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);	
-	text-align: center;
+  background: #fff;
+  border: 1px solid #e4e5e7;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 
+/* line 111, custom.scss */
 .login-body .form-control {
-	border-radius:4px;
-	height: 45px;
-	font-size: 16px;
+  border-radius: 4px;
+  height: 45px;
+  font-size: 16px;
 }
 
+/* line 117, custom.scss */
 .login-body .submit {
-	width: 100%;
-	color: #fff;
-	border: none;
-	border-radius: 4px;
-	border-color: #4280cb;
-	background-color: #4280cb;
-	font-size: 16px;
-	padding: 0px;
-	height: 45px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  border-color: #4280cb;
+  background-color: #4280cb;
+  font-size: 16px;
+  padding: 0px;
+  height: 45px;
 }
 
+/* line 129, custom.scss */
 .login-body .submit:hover {
-	border-color: #2f67ab;
-	background-color: #2f67ab;
+  border-color: #2f67ab;
+  background-color: #2f67ab;
 }
 
+/* line 135, custom.scss */
 .login-body .submit:active,
 .login-body .submit:focus {
-	background: #4280cb;
+  background: #4280cb;
 }
 
+/* line 139, custom.scss */
 .login-form .alert {
-	font-size: 15px;
-	font-weight: normal;
-	border-radius: 4px;
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 4px;
 }
 
 /* Button Images */
+/* line 146, custom.scss */
 .btn img {
-	display:none;
-}
-
-/* Nav bar */
-.navbar-default .navbar-nav>.active>a {
-  color: #555;
-  background-color: transparent;
-}
-
-.dropdown-menu>li>a {
-	font-size:15p;
-}
-
-.dropdown-menu>.active>a,
-.dropdown-menu>.active>a:focus {
-  color: #000;
-  background-color: transparent;
-}
-
-.dropdown-menu>.active>a:hover {
-  color: #262626;
-  background-color: #f5f5f5;
+  display: none;
 }
 
 /* Logout */
-
+/* line 152, custom.scss */
 .logout-container {
-	text-align: right;
-	margin-right: 0px;
-	margin-top: 8px;
+  text-align: right;
+  margin-right: 0px;
+  margin-top: 5px;
 }
 
+/* line 158, custom.scss */
 .logout-container .btn {
-	background: transparent;
-	color: #fff;
-	border: 0;
+  background: transparent;
+  color: #fff;
+  border: 0;
 }
 
+/* line 164, custom.scss */
 .logout-container .btn:hover {
-	color: #4280CB;
+  color: #4280cb;
 }
 
- /*Data grid */
+/*Data grid */
+/* line 169, custom.scss */
 .mx-datagrid tr {
-	/* Do not highlight row contents */
-	cursor: pointer;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+  /* Do not highlight row contents */
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
+/* line 180, custom.scss */
 .mx-datagrid-head-caption {
-	font-weight:normal;
+  font-weight: normal;
 }
 
 /* Group Box */
+/* line 185, custom.scss */
 .mx-groupbox-header {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Buttons */
-.btn {
-	font-size: 14px;
-}
-
+/* line 195, custom.scss */
 .mx-btn-sso {
-	padding: 0px;
-	width:100%;
-	font-size: 16px;
-	height: 45px;
+  padding: 0px;
+  width: 100%;
+  font-size: 16px;
+  height: 45px;
 }
 
 /* Progress Indicator */
+/* line 203, custom.scss */
 .mx-progress-indicator {
-	width: 0px;
-	height: 0px;
-	margin: auto;
-	background: none;
-	width: 40px;
-	height: 40px;
-	border-radius: 40px;
-	-webkit-box-sizing: border-box;
-	border: solid 3px rgba(255, 255, 255, 0.2);
-	border-top-color: #FFF;
-	-webkit-animation: spin 1s infinite linear;
-	animation: spin 1s infinite linear;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  background: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  -webkit-box-sizing: border-box;
+  border: solid 3px rgba(255, 255, 255, 0.2);
+  border-top-color: #FFF;
+  -webkit-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
 }
 
-@-webkit-keyframes spin { 
-	100% { 
-		-webkit-transform: rotate(360deg); 
-	} 
-} 
+@-webkit-keyframes spin {
+  /* line 219, custom.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
 
-@keyframes spin { 
-	100% { 
-		transform: rotate(360deg); 
-	} 
-} 
+@keyframes spin {
+  /* line 225, custom.scss */
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* Dropdown */
-
+/* line 232, custom.scss */
 .mx-dropdown li {
-	outline: none;
+  outline: none;
 }
 
 /* Custom Glyphicon */
+/* line 237, custom.scss */
 .glyphicon-mx:before {
-	content: "\e600";
-	font-size: 2em;
+  content: "\e600";
+  font-size: 2em;
 }
 
 /*** WebKit ***/
-.profile-phone input.form-control, 
-.profile-phone textarea.form-control, 
-.profile-phone select.form-control, 
-.profile-tablet input.form-control, 
-.profile-tablet textarea.form-control, 
+/* line 248, custom.scss */
+.profile-phone input.form-control,
+.profile-phone textarea.form-control,
+.profile-phone select.form-control,
+.profile-tablet input.form-control,
+.profile-tablet textarea.form-control,
 .profile-tablet select.form-control {
-	-webkit-appearance: none;
-}
-
-/*** Form Controls ***/
-.form-control {
-	padding: 0px 0px 0px 8px !important;
-}
-
-textarea.form-control, 
-textarea.readonly-input {
-	padding-top: 8px !important;
+  -webkit-appearance: none;
 }

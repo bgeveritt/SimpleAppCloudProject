@@ -9,7 +9,7 @@
    ========================================================================== */
 .btn,
 .mx-button {
-    @include border-radius(4px);
+    @include border-radius($btn-border-radius);
     @include transition-property(all);
     @include transition-duration(0.2s);
     @include transition-timing-function(ease-in-out);

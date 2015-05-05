@@ -44,18 +44,22 @@
 		margin: 10px 0;
 		.mx-grid-search-item {
 			.mx-grid-search-label {
+				width: 200px;
 				vertical-align: middle;
+				text-align: left;
+				display: table-caption;
 				label { padding-top: 5px; }
 			}
 			.mx-grid-search-input {
+				width: 200px;
 				.form-control {
-					height: 28px;
-					font-size: 11px;
+					height: 40px;
+					font-size: 15px;					
 				}
 				.mx-button {
-					height: 28px;
-					padding-top: 2px;
-					padding-bottom: 2px;
+					height: 40px;
+					padding-top: 0px;
+					padding-bottom: 0px;
 				}
 			}
 		}

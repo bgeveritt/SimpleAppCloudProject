@@ -10,7 +10,9 @@
 .dijitCalendarContainer {
 	z-index: 10010 !important; //(must be higher than popup z-index)
 	background-color: #eff0f2;
-
+	border: 1px solid;
+	border-radius: 4px;
+	border-color: #26323D;
 	tr {
 		th {
 			background-color: #26323D;
